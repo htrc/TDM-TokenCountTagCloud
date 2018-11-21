@@ -8,20 +8,20 @@ This tool takes as input a set of TDM JSON extracted features records and comput
 
 `sbt clean dist`
 
-then find the resulting `tdm-token-count-tag-cloud-<version>.zip` in the `target/universal/` folder.
+then find the resulting `tdm-token-count-tag-cloud-1.0.zip` in the `target/universal/` folder.
 
 # Run
 
 ```
-unzip tdm-token-count-tag-cloud-<version>.zip
-cd tdm-token-count-tag-cloud-<version>
+unzip tdm-token-count-tag-cloud-1.0.zip
+cd tdm-token-count-tag-cloud-1.0
 ./bin/tdm-token-count-tag-cloud <ARGS> <INPUT>
 ```
 
 ## Help
 
 ```
-tdm-token-count-tag-cloud
+tdm-token-count-tag-cloud 1.0
 Text and Data Mining (TDM) initiative involving HathiTrust/HTRC, JSTOR, and Portico
       --corrections-url  <URL>   (Optional) The URL containing the correction
                                  rules to use
