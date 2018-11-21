@@ -6,6 +6,8 @@ This tool takes as input a set of TDM JSON extracted features records and comput
 
 # Build
 
+To build this project's code, install [Scala's Simple Build Tool (SBT)](https://www.scala-sbt.org) and run
+
 `sbt clean dist`
 
 then find the resulting `tdm-token-count-tag-cloud-1.0.zip` in the `target/universal/` folder.
